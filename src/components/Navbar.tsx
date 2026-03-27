@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import { Link } from "react-router-dom";
 
 const navItems = [
   { label: "About Us", hasDropdown: false, location: "/about" },
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
       <nav className="container-main flex items-center justify-between h-16 px-6">
-        <div className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-sm font-display">SC</span>
           </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
             <span className="font-display font-semibold text-foreground text-sm">Smartax Counting</span>
             <span className="block text-[10px] text-muted-foreground tracking-wide">Chartered Accountant</span>
           </div>
-        </div>
+        </Link>
 
         <div className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
