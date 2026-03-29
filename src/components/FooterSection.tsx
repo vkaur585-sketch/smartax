@@ -12,7 +12,7 @@ const FooterSection = () => {
               </div>
               <div className="leading-tight">
                 <span className="font-display font-semibold text-sm">Smartax Counting</span>
-                <span className="block text-[10px] opacity-60 tracking-wide">Chartered Accountant</span>
+                <span className="block text-[10px] opacity-60 tracking-wide">From The Accountants, For the Accountants</span>
               </div>
             </div>
             <p className="text-sm opacity-60 max-w-sm leading-relaxed">
@@ -39,11 +39,11 @@ const FooterSection = () => {
             <ul className="space-y-3 text-sm opacity-70">
               <li className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 opacity-50" />
-                info@smartaxcounting.com
+                vimal@smartax.co.in
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 opacity-50" />
-                +91 XXX XXX XXXX
+                +91 9876 322 311
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 opacity-50 mt-0.5" />

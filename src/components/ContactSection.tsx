@@ -89,7 +89,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-sm mb-1">Email Address</h4>
-                  <p className="text-sm opacity-60">enquiry@indianmuneem.com</p>
+                  <p className="text-sm opacity-60">vimal@smartax.co.in</p>
                 </div>
               </div>
 
@@ -100,25 +100,14 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-sm mb-1">Office Location</h4>
                   <p className="text-sm opacity-60">
-                    Plot No. 14, Rajiv Gandhi Chandigarh<br />
-                    Technology Park, Chandigarh 160101
+                    Plot No. 1073, Sector-82, JLPL, Industrial Area<br />
+                    Mohali, Punjab, 140306
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="inline-flex items-center gap-4 bg-background/10 rounded-full px-6 py-3">
-              <span className="text-sm font-semibold">Follow Us:</span>
-              {[Facebook, XIcon, Linkedin, Instagram, Youtube].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-8 h-8 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary/30 transition-colors"
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
-            </div>
+            
           </div>
 
           {/* Right side - Form */}

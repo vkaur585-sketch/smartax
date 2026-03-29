@@ -17,7 +17,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-display text-primary-foreground max-w-4xl mx-auto"
         >
-          SmartaxCounting
+          Smartax Counting
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
