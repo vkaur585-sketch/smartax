@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const navItems = [
-  { label: "About Us", hasDropdown: false, location: "/about" },
-  { label: "Services", hasDropdown: false, location: "/services" },
-  { label: "Resources", hasDropdown: false, location: "/resources" },
+  { label: "About Us", location: "/about" },
+  { label: "Services", location: "/services" },
+  { label: "Resources", location: "/resources" },
 ];
 
 const Navbar = () => {
@@ -14,51 +14,69 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border">
+      
+      {/* NAVBAR */}
       <nav className="container-main flex items-center justify-between h-16 px-6">
+        
+        {/* LOGO + NAME */}
         <Link to="/" className="flex items-center gap-2">
-        <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center overflow-hidden">
+  
   <img
     src="/LOGO.png"
     alt="Smartax Logo"
-    className="w-full h-full object-contain"
+    className="h-10 w-auto object-contain"
   />
-</div>
-          <div className="leading-tight">
-            <span className="font-display font-semibold text-foreground text-sm">Smartax Counting</span>
-            <span className="block text-[10px] text-muted-foreground tracking-wide">From The Accountants, For the Accountants </span>
-          </div>
-        </Link>
 
+  <div className="flex flex-col leading-tight">
+    <span className="font-display font-semibold text-foreground text-sm">
+      Smartax Counting
+    </span>
+    <span className="text-[10px] text-muted-foreground tracking-wide">
+      From the Accountants, For the Accountants
+    </span>
+  </div>
+
+</Link>
+
+        {/* DESKTOP NAV */}
         <div className="hidden lg:flex items-center gap-8">
           {navItems.map((item) => (
-            <button
+            <Link
               key={item.label}
+              to={item.location}
               className="flex items-center gap-1 text-sm font-medium text-foreground/70 hover:text-foreground transition-colors"
-              onClick={()=>{
-                window.location.href = item.location
-              }}
             >
               {item.label}
-              {item.hasDropdown && <ChevronDown className="w-3.5 h-3.5" />}
-            </button>
+              <ChevronDown className="w-3.5 h-3.5 opacity-0" />
+            </Link>
           ))}
         </div>
 
+        {/* CTA BUTTON */}
         <div className="hidden lg:block">
-          <a
-            href="/contact-us"
+          <Link
+            to="/contact-us"
             className="inline-flex items-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-all hover:-translate-y-px active:scale-[0.98]"
             style={{ boxShadow: "var(--shadow-primary)" }}
           >
             Get In Touch
-          </a>
+          </Link>
         </div>
 
-        <button className="lg:hidden" onClick={() => setMobileOpen(!mobileOpen)}>
-          {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+        {/* MOBILE MENU BUTTON */}
+        <button
+          className="lg:hidden"
+          onClick={() => setMobileOpen(!mobileOpen)}
+        >
+          {mobileOpen ? (
+            <X className="w-5 h-5" />
+          ) : (
+            <Menu className="w-5 h-5" />
+          )}
         </button>
       </nav>
 
+      {/* MOBILE MENU */}
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
@@ -69,19 +87,23 @@ const Navbar = () => {
           >
             <div className="px-6 py-4 space-y-3">
               {navItems.map((item) => (
-                <button key={item.label} className="block w-full text-left text-sm font-medium text-foreground/70 py-2"
-                onClick={()=>{
-                  window.location.href = item.location
-                }}>
+                <Link
+                  key={item.label}
+                  to={item.location}
+                  className="block w-full text-left text-sm font-medium text-foreground/70 py-2"
+                  onClick={() => setMobileOpen(false)}
+                >
                   {item.label}
-                </button>
+                </Link>
               ))}
-              <a
-                href="#contact"
+
+              <Link
+                to="/contact-us"
                 className="block w-full text-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-medium mt-2"
+                onClick={() => setMobileOpen(false)}
               >
                 Get In Touch
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}

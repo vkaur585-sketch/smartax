@@ -1,24 +1,52 @@
 import { motion } from "framer-motion";
-import heroBg from "../../public/heroo.jpg";
+const heroBg = "/heroo.jpg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+      
+      {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
       <div className="absolute inset-0 bg-foreground/70" />
 
+      {/* Content */}
       <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8 text-center">
+
+        {/* 🔥 LOGO */}
+        <motion.img
+          src="/LOGO.png"
+          alt="Smartax Logo"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6 }}
+          className="mx-auto mb-6 h-40 md:h-40 object-contain"
+        />
+
+        {/* HEADING */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-display text-primary-foreground max-w-4xl mx-auto"
         >
-          Smartax Counting
+          <motion.h1
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+  className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-display text-primary-foreground max-w-4xl mx-auto"
+>
+  Smar
+  <span className="text-green-300 drop-shadow-[0_0_10px_rgba(34,197,94,0.6)]">
+    tax
+  </span>{" "}
+  Counting
+</motion.h1>
         </motion.h1>
+
+        {/* TAGLINE */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -27,6 +55,8 @@ const Hero = () => {
         >
           From the Accountants, For the Accountants
         </motion.p>
+
+        {/* BUTTON */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -40,6 +70,7 @@ const Hero = () => {
             Get in Touch
           </a>
         </motion.div>
+
       </div>
     </section>
   );

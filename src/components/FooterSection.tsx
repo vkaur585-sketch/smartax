@@ -7,13 +7,25 @@ const FooterSection = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">SC</span>
-              </div>
-              <div className="leading-tight">
-                <span className="font-display font-semibold text-sm">Smartax Counting</span>
-                <span className="block text-[10px] opacity-60 tracking-wide">From The Accountants, For the Accountants</span>
-              </div>
+            <div className="flex items-center gap-2 mb-4">
+  
+  <img
+    src="/LOGO.png"
+    alt="Smartax Logo"
+    className="h-10 w-auto object-contain"
+  />
+
+  <div className="leading-tight">
+    <span className="font-display font-semibold text-sm">
+      Smartax Counting
+    </span>
+    <span className="block text-[10px] opacity-60 tracking-wide">
+      From The Accountants, For the Accountants
+    </span>
+  </div>
+
+</div>
+              
             </div>
             <p className="text-sm opacity-60 max-w-sm leading-relaxed">
               Your trusted offshore accounting partner. Over 20 years of
