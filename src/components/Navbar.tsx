@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const navItems = [
   { label: "About Us", location: "/about" },
   { label: "Services", location: "/services" },
-  { label: "Resources", location: "/resources" },
+  // { label: "Resources", location: "/resources" },
 ];
 
 const Navbar = () => {
