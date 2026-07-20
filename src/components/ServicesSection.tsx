@@ -51,7 +51,7 @@ const ServicesSection = () => {
           <h2 className="text-3xl lg:text-4xl font-semibold text-foreground mt-4 mb-4">
             What We Can Help You With
           </h2>
-          <p className="text-muted-foreground leading-relaxed">
+          <p className="text-lg leading-8 text-foreground/80 mb-6">
             Comprehensive accounting services from bookkeeping and tax
             preparation to financial reporting and payroll — helping firms
             scale efficiently while maintaining quality.
@@ -62,16 +62,24 @@ const ServicesSection = () => {
           {services.map((service, i) => (
             <motion.div
               key={i}
-              className="group card-surface p-6 hover:shadow-[0_0_0_1px_rgba(0,0,0,0.08),0_8px_24px_-8px_rgba(0,0,0,0.1)] transition-all duration-200 relative overflow-hidden"
+              className="group card-surface p-8 hover:shadow-[0_0_0_1px_rgba(0,0,0,0.08),0_8px_24px_-8px_rgba(0,0,0,0.1)] transition-all duration-200 relative overflow-hidden"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.08 }}
             >
-              <div className="absolute top-0 left-0 w-0 group-hover:w-full h-0.5 bg-primary transition-all duration-300" />
-              <service.icon className="w-5 h-5 text-primary mb-4" />
-              <h3 className="font-semibold text-foreground mb-2">{service.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-4 whitespace-pre-line lg:text-justify">{service.desc}</p>
+            <div className="absolute top-0 left-0 w-0 group-hover:w-full h-0.5 bg-primary transition-all duration-300" />
+
+            <div className="flex items-start gap-4 mb-6">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+                <service.icon className="w-6 h-6 text-primary" />
+              </div>
+
+              <h3 className="text-xl font-semibold text-foreground leading-tight">
+                {service.title}
+              </h3>
+            </div>
+              <p className="text-base leading-8 text-foreground/80 mb-6">{service.desc}</p>
               {/* <button className="inline-flex items-center gap-1 text-xs font-medium text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                 Read more <ArrowRight className="w-3 h-3" />
               </button> */}

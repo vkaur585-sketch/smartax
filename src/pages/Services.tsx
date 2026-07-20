@@ -8,10 +8,12 @@ import SoftwareMarquee from "@/components/SoftwareMarquee";
 import TeamSection from "@/components/TeamSection";
 import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
-
+import PageTransition from "@/components/PageTransition";
 const Services = () => {
   return (
     <div className="min-h-screen bg-background">
+      <PageTransition>
+
       <Navbar />
       {/* <HeroSection /> */}
       {/* <AboutSection /> */}
@@ -22,6 +24,7 @@ const Services = () => {
       {/* <TeamSection /> */}
       {/* <FAQSection /> */}
       <FooterSection />
+      </PageTransition>
     </div>
   );
 };

@@ -10,10 +10,13 @@ import TeamSection from "@/components/TeamSection";
 import FAQSection from "@/components/FAQSection";
 import FooterSection from "@/components/FooterSection";
 import Hero from "@/components/Hero";
+import PageTransition from "@/components/PageTransition";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <PageTransition>
+
       <Navbar />
       {/* <HeroSection /> */}
       {/* <AboutSection /> */}
@@ -26,6 +29,7 @@ const Index = () => {
       {/* <TeamSection /> */}
       {/* <FAQSection /> */}
       <FooterSection />
+      </PageTransition>
     </div>
   );
 };
