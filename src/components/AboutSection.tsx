@@ -12,21 +12,21 @@ const AboutSection = () => {
           <div>
             <span className="eyebrow">About Us</span>
 
-            <h2 className="text-3xl lg:text-4xl font-semibold text-foreground mt-4 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold tracking-tight text-foreground mt-4 mb-6">
               Building Trust, Delivering Accounting Excellence
             </h2>
 
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              We provide offshore accounting and finance services to firms that need more hands, more hours,
-              or more expertise, without the overhead of hiring full-time staff. From bookkeeping and payroll to
-              tax preparation and forensic accounting, we cover the full spectrum. Our team of qualified
-              accountants, Chartered Accountants (CAs), and CPAs works as an extension of your firm,
-              delivering work that’s accurate, compliant, and audit-ready.
-            </p>
+            <p className="text-base leading-8 text-foreground/80 mb-6">
+  We provide offshore accounting and finance services to firms that need more hands, more hours,
+  or more expertise, without the overhead of hiring full-time staff. From bookkeeping and payroll to
+  tax preparation and forensic accounting, we cover the full spectrum. Our team of qualified
+  accountants, Chartered Accountants (CAs), and CPAs works as an extension of your firm,
+  delivering work that’s accurate, compliant, and audit-ready.
+</p>
 
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              In short: You get the capacity of a bigger team, without the cost or complexity of building one.
-            </p>
+<p className="text-base leading-8 text-foreground/80">
+  In short: You get the capacity of a bigger team, without the cost or complexity of building one.
+</p>
 
             {/* PROCESS STEPS */}
             <div className="flex items-center gap-3 flex-wrap">
