@@ -98,7 +98,7 @@ const AboutSection = () => {
               {/* PORTRAIT */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
-                  src="/ChatGPT Image Sep 1, 2026, 01_12_02 PM.png"
+                  src="src/ChatGPT Image Sep 1, 2026, 01_12_02 PM.png"
                   alt="Vimal Verma"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 />
@@ -200,7 +200,7 @@ const AboutSection = () => {
               {/* PORTRAIT */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
-                  src="/ChatGPT Image Sep 1, 2026, 01_14_34 PM.png"
+                  src="src/ChatGPT Image Sep 1, 2026, 01_14_34 PM.png"
                   alt="Shan Singh"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 />
@@ -300,7 +300,7 @@ const AboutSection = () => {
               {/* PORTRAIT */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
-                  src="/ChatGPT Image Sep 1, 2026, 01_13_22 PM.png"
+                  src="src/ChatGPT Image Sep 1, 2026, 01_13_22 PM.png"
                   alt="Sandeep Sharma"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 />
@@ -397,7 +397,7 @@ const AboutSection = () => {
               {/* PORTRAIT */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
-                  src="/Jas.png"
+                  src="src/Jas.png"
                   alt="Jasmeet Singh (James)"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 />
