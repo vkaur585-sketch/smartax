@@ -90,7 +90,7 @@ const AboutSection = () => {
     >
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
-          src="/team-1.png"
+          src="/ChatGPT Image Sep 1, 2026, 01_12_02 PM.PNG"
           alt="Team Member 1"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
@@ -140,7 +140,7 @@ const AboutSection = () => {
     >
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
-          src="/team-2.png"
+          src="/ChatGPT Image Sep 1, 2026, 01_14_34 PM.PNG"
           alt="Team Member 2"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
@@ -186,7 +186,7 @@ const AboutSection = () => {
     >
       <div className="relative aspect-[4/3] overflow-hidden">
         <img
-          src="/team-3.png"
+          src="/ChatGPT Image Sep 1, 2026, 01_13_22 PM.PNG"
           alt="Team Member 3"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
