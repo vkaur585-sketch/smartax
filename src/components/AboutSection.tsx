@@ -4,8 +4,10 @@ const AboutSection = () => {
   return (
     <section className="section-padding" id="about">
       <div className="container-main">
+
         {/* ================= ABOUT ================= */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
+
           {/* LEFT SIDE */}
           <div>
             <span className="eyebrow">About Us</span>
@@ -54,8 +56,10 @@ const AboutSection = () => {
           </motion.div>
         </div>
 
+
         {/* ================= OUR TEAM ================= */}
         <section className="mt-28">
+
           {/* TEAM HEADING */}
           <div className="text-center mb-14">
             <span className="eyebrow">Our Team</span>
@@ -70,8 +74,11 @@ const AboutSection = () => {
             </p>
           </div>
 
+
           {/* TEAM GRID */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+          <div className="grid md:grid-cols-2 gap-10 items-start">
+
+
             {/* ================= VIMAL VERMA ================= */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -80,6 +87,7 @@ const AboutSection = () => {
               transition={{ duration: 0.5 }}
               className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
+
               {/* Portrait */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
@@ -91,6 +99,7 @@ const AboutSection = () => {
 
               {/* Content */}
               <div className="p-7 lg:p-8">
+
                 <div className="w-12 h-1 bg-primary rounded-full mb-5" />
 
                 <h3 className="text-2xl font-semibold text-foreground">
@@ -102,29 +111,41 @@ const AboutSection = () => {
                 </p>
 
                 <div className="space-y-5">
+
                   <p className="text-base leading-8 text-foreground/75">
-                    Vimal Verma is the Founder and Director of Smartax Accounting Private Limited, 
-                    with over 30 years of experience in accounting, taxation, financial compliance, and outsourcing.
+                    Vimal Verma is the Founder and Director of Smartax
+                    Accounting Private Limited, with over 30 years of experience
+                    in accounting, taxation, financial compliance, and
+                    outsourcing.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
-                    A Chartered Accountant (Inter) since 1992, he holds a Bachelor of Commerce from Panjab 
-                    University and a Master of Commerce from Himachal Pradesh University.
+                    A Chartered Accountant (Inter) since 1992, he holds a
+                    Bachelor of Commerce from Panjab University and a Master of
+                    Commerce from Himachal Pradesh University.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
-                    Vimal began his career in Indian taxation, spending over 12 years advising businesses before entering the accounting
-                    outsourcing industry in 2007. He was among the early pioneers of finance and accounting outsourcing in the
-                    Chandigarh region and played a key role in building high-performing offshore accounting operations for international firms.
+                    Vimal began his career in Indian taxation, spending over 12
+                    years advising businesses before entering the accounting
+                    outsourcing industry in 2007. He was among the early
+                    pioneers of finance and accounting outsourcing in the
+                    Chandigarh region and played a key role in building
+                    high-performing offshore accounting operations for
+                    international firms.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
-                    At Smartax Accounting, Vimal leads with a focus on trust, quality, and long-term partnerships,
-                    delivering scalable offshore accounting solutions to clients across New Zealand, Australia, the UK, and the USA.
+                    At Smartax Accounting, Vimal leads with a focus on trust,
+                    quality, and long-term partnerships, delivering scalable
+                    offshore accounting solutions to clients across New Zealand,
+                    Australia, the UK, and the USA.
                   </p>
+
                 </div>
               </div>
             </motion.div>
+
 
             {/* ================= SHAN SINGH ================= */}
             <motion.div
@@ -134,6 +155,7 @@ const AboutSection = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
+
               {/* Portrait */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
@@ -145,6 +167,7 @@ const AboutSection = () => {
 
               {/* Content */}
               <div className="p-7 lg:p-8">
+
                 <div className="w-12 h-1 bg-primary rounded-full mb-5" />
 
                 <h3 className="text-2xl font-semibold text-foreground">
@@ -156,6 +179,7 @@ const AboutSection = () => {
                 </p>
 
                 <div className="space-y-5">
+
                   <p className="text-base leading-8 text-foreground/75">
                     Shan Singh is the Co-Founder and Director of Smartax
                     Accounting Private Limited. He holds a Bachelor of Commerce
@@ -181,9 +205,11 @@ const AboutSection = () => {
                     approach have been instrumental in delivering value to
                     businesses across the UK.
                   </p>
+
                 </div>
               </div>
             </motion.div>
+
 
             {/* ================= SANDEEP SHARMA ================= */}
             <motion.div
@@ -191,8 +217,9 @@ const AboutSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 md:col-span-2 lg:col-span-1"
+              className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
+
               {/* Portrait */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
@@ -204,6 +231,7 @@ const AboutSection = () => {
 
               {/* Content */}
               <div className="p-7 lg:p-8">
+
                 <div className="w-12 h-1 bg-primary rounded-full mb-5" />
 
                 <h3 className="text-2xl font-semibold text-foreground">
@@ -215,6 +243,7 @@ const AboutSection = () => {
                 </p>
 
                 <div className="space-y-5">
+
                   <p className="text-base leading-8 text-foreground/75">
                     Sandeep Sharma is the General Manager at Smartax Accounting
                     Private Limited. He qualified as a Chartered Accountant
@@ -226,9 +255,9 @@ const AboutSection = () => {
                     With over 30 years of experience in accounting, including 6
                     years of specialised experience in US accounting, Sandeep
                     has developed strong expertise in US accounting and
-                    compliance. His areas of specialisation include
-                    bookkeeping, financial reporting, payroll, sales tax,
-                    income tax, annual accounts, and year-end compliance.
+                    compliance. His areas of specialisation include bookkeeping,
+                    financial reporting, payroll, sales tax, income tax, annual
+                    accounts, and year-end compliance.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
@@ -239,11 +268,63 @@ const AboutSection = () => {
                     efficient and compliant accounting and financial reporting
                     services.
                   </p>
+
                 </div>
               </div>
             </motion.div>
+
+
+            {/* ================= JASMEET SINGH ================= */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+            >
+
+              {/* Portrait */}
+              <div className="relative aspect-[4/5] overflow-hidden bg-muted">
+                <img
+                  src="/jas.png"
+                  alt="Jasmeet Singh (James)"
+                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                />
+              </div>
+
+              {/* Content */}
+              <div className="p-7 lg:p-8">
+
+                <div className="w-12 h-1 bg-primary rounded-full mb-5" />
+
+                <h3 className="text-2xl font-semibold text-foreground">
+                  Jasmeet Singh
+                </h3>
+
+                <p className="text-base font-medium text-primary mt-1 mb-7">
+                  Business Development Executive
+                </p>
+
+                <div className="space-y-5">
+
+                  {/* ADD JASMEET'S BIO HERE */}
+
+                  <p className="text-base leading-8 text-foreground/75">
+                    James is a Business Development and Sales professional with 18 years of experience working with USA-based companies. 
+                    He specializes in lead generation, B2B prospecting, appointment setting, cold calling, email and LinkedIn outreach, 
+                    client acquisition, and sales development.
+                  </p>
+                  <p className="text-base leading-8 text-foreground/75">
+                  With strong knowledge of the US market, James focuses on building client relationships, generating qualified leads, 
+                    developing sales opportunities, and supporting revenue growth through effective sales and marketing strategies.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+
           </div>
         </section>
+
       </div>
     </section>
   );
