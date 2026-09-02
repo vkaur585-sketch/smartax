@@ -103,46 +103,24 @@ const AboutSection = () => {
 
                 <div className="space-y-5">
                   <p className="text-base leading-8 text-foreground/75">
-                    Vimal Verma is the Founder and Director of Smartax
-                    Accounting Private Limited, bringing more than three
-                    decades of experience in accounting, taxation, financial
-                    compliance, and business process outsourcing. With a career
-                    built on technical excellence, integrity, and operational
-                    leadership, he has established himself as a trusted advisor
-                    to accounting firms and businesses across international
-                    markets.
+                    Vimal Verma is the Founder and Director of Smartax Accounting Private Limited, 
+                    with over 30 years of experience in accounting, taxation, financial compliance, and outsourcing.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
-                    A Chartered Accountant (Inter) since 1992, Vimal holds a
-                    Bachelor of Commerce from Panjab University, Chandigarh,
-                    and a Master of Commerce from Himachal Pradesh University,
-                    Shimla, India.
+                    A Chartered Accountant (Inter) since 1992, he holds a Bachelor of Commerce from Panjab 
+                    University and a Master of Commerce from Himachal Pradesh University.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
-                    Vimal began his professional journey in Indian taxation,
-                    where he spent over 12 years advising businesses on tax
-                    compliance and financial matters. In 2007, he entered the
-                    accounting outsourcing industry and became one of the
-                    pioneers of finance and accounting outsourcing in the
-                    Chandigarh region. As the first employee of one of the
-                    region's leading outsourcing firms, he played an
-                    instrumental role in building and scaling high-performing
-                    offshore accounting operations, helping establish KFT as a
-                    trusted outsourcing partner for international accounting
-                    firms.
+                    Vimal began his career in Indian taxation, spending over 12 years advising businesses before entering the accounting
+                    outsourcing industry in 2007. He was among the early pioneers of finance and accounting outsourcing in the
+                    Chandigarh region and played a key role in building high-performing offshore accounting operations for international firms.
                   </p>
 
                   <p className="text-base leading-8 text-foreground/75">
-                    At Smartax Accounting, Vimal leads with a clear vision of
-                    creating long-term partnerships based on trust, quality,
-                    and reliability. Under his leadership, the company provides
-                    scalable offshore accounting solutions to accounting firms
-                    and businesses across New Zealand, Australia, the United
-                    Kingdom, and the United States, helping clients improve
-                    efficiency, reduce operational costs, and focus on
-                    strategic growth.
+                    At Smartax Accounting, Vimal leads with a focus on trust, quality, and long-term partnerships,
+                    delivering scalable offshore accounting solutions to clients across New Zealand, Australia, the UK, and the USA.
                   </p>
                 </div>
               </div>
