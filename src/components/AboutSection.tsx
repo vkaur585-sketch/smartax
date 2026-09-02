@@ -397,7 +397,7 @@ const AboutSection = () => {
               {/* PORTRAIT */}
               <div className="relative aspect-[4/5] overflow-hidden bg-muted">
                 <img
-                  src="/Jas.avif"
+                  src="/Jas.png"
                   alt="Jasmeet Singh (James)"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                 />
