@@ -63,6 +63,135 @@ const AboutSection = () => {
 
         </div>
       </div>
+
+      {/* OUR TEAM */}
+<section className="mt-28">
+  <div className="text-center mb-14">
+    <span className="eyebrow">Our Team</span>
+
+    <h2 className="text-4xl lg:text-5xl font-semibold tracking-tight text-foreground mt-4 mb-5">
+      The People Behind Smartax Counting
+    </h2>
+
+    <p className="text-base leading-7 text-foreground/70 max-w-2xl mx-auto">
+      Meet the professionals who bring experience, expertise, and a commitment
+      to quality to everything we do.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {/* TEAM MEMBER 1 */}
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+      className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+    >
+      <div className="relative aspect-[4/3] overflow-hidden">
+        <img
+          src="/team-1.png"
+          alt="Team Member 1"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+      </div>
+
+      <div className="p-7">
+        <div className="w-10 h-1 bg-primary rounded-full mb-4" />
+
+        <h3 className="text-2xl font-semibold text-foreground">
+          Team Member Name
+        </h3>
+
+        <p className="text-sm font-medium text-primary mt-1 mb-6">
+          Designation
+        </p>
+
+        <p className="text-base leading-8 text-foreground/75">
+          Add the complete biography of the team member here. Since the
+          biography is longer, the generous line height and spacing will keep
+          the content comfortable to read without making the card feel dense.
+        </p>
+      </div>
+    </motion.div>
+
+    {/* TEAM MEMBER 2 */}
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.1 }}
+      className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+    >
+      <div className="relative aspect-[4/3] overflow-hidden">
+        <img
+          src="/team-2.png"
+          alt="Team Member 2"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+      </div>
+
+      <div className="p-7">
+        <div className="w-10 h-1 bg-primary rounded-full mb-4" />
+
+        <h3 className="text-2xl font-semibold text-foreground">
+          Team Member Name
+        </h3>
+
+        <p className="text-sm font-medium text-primary mt-1 mb-6">
+          Designation
+        </p>
+
+        <p className="text-base leading-8 text-foreground/75">
+          Add the complete biography of the team member here. Keep the full
+          biography visible so visitors can understand the person's
+          experience and role within Smartax Counting.
+        </p>
+      </div>
+    </motion.div>
+
+    {/* TEAM MEMBER 3 */}
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+      className="group rounded-3xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+    >
+      <div className="relative aspect-[4/3] overflow-hidden">
+        <img
+          src="/team-3.png"
+          alt="Team Member 3"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+
+        <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+      </div>
+
+      <div className="p-7">
+        <div className="w-10 h-1 bg-primary rounded-full mb-4" />
+
+        <h3 className="text-2xl font-semibold text-foreground">
+          Team Member Name
+        </h3>
+
+        <p className="text-sm font-medium text-primary mt-1 mb-6">
+          Designation
+        </p>
+
+        <p className="text-base leading-8 text-foreground/75">
+          Add the complete biography of the team member here. The card layout
+          gives longer biographies enough room while maintaining a clean,
+          consistent visual structure.
+        </p>
+      </div>
+    </motion.div>
+  </div>
+</section>
     </section>
   );
 };
