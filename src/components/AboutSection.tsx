@@ -102,18 +102,31 @@ const AboutSection = () => {
         <div className="w-10 h-1 bg-primary rounded-full mb-4" />
 
         <h3 className="text-2xl font-semibold text-foreground">
-          Team Member Name
+          Vimal Verma
         </h3>
 
         <p className="text-sm font-medium text-primary mt-1 mb-6">
-          Designation
+          Founder & Director
         </p>
 
         <p className="text-base leading-8 text-foreground/75">
-          Add the complete biography of the team member here. Since the
-          biography is longer, the generous line height and spacing will keep
-          the content comfortable to read without making the card feel dense.
+          Vimal Verma is the Founder and Director of Smartax Accounting Private Limited, bringing more than three decades of 
+          experience in accounting, taxation, financial compliance, and business process outsourcing. With a career built on 
+          technical excellence, integrity, and operational leadership,he has established himself as a trusted advisor to 
+          accounting firms and businesses across international markets.
         </p>
+         <p className="text-base leading-8 text-foreground/75">A Chartered Accountant (Inter) since 1992, Vimal holds a 
+           Bachelor of Commerce from Panjab University, Chandigarh, and a Master of Commerce from Himachal Pradesh University, Shimla, India.</p>
+         <p className="text-base leading-8 text-foreground/75">Vimal began his professional journey in Indian taxation, where he spent over 12 years 
+           advising businesses on tax compliance and financial matters. In 2007, he entered the accounting outsourcing industry and became one of the 
+           pioneers of finance and accounting outsourcing in the Chandigarh region. As the first employee of one of the region's 
+           leading outsourcing firms—he played an instrumental role in building and scaling high-performing offshore accounting operations, 
+           helping establish KFT as a trusted outsourcing partner for international accounting firms.</p>
+         <p className="text-base leading-8 text-foreground/75">
+           At Smartax Accounting, Vimal leads with a clear vision of creating long-term partnerships based on trust, quality, and reliability. 
+           Under his leadership, the company provides scalable offshore accounting solutions to accounting firms and businesses across New Zealand, 
+           Australia, the United Kingdom, and the United States, helping clients improve efficiency, reduce operational costs, and focus on strategic growth.
+         </p>
       </div>
     </motion.div>
 
@@ -139,17 +152,26 @@ const AboutSection = () => {
         <div className="w-10 h-1 bg-primary rounded-full mb-4" />
 
         <h3 className="text-2xl font-semibold text-foreground">
-          Team Member Name
+          Shan Singh
         </h3>
 
         <p className="text-sm font-medium text-primary mt-1 mb-6">
-          Designation
+          Co-Founder & Director
         </p>
 
         <p className="text-base leading-8 text-foreground/75">
-          Add the complete biography of the team member here. Keep the full
-          biography visible so visitors can understand the person's
-          experience and role within Smartax Counting.
+          Shan Singh is the Co-Founder and Director of Smartax Accounting Private Limited. 
+          He holds a Bachelor of Commerce from Panjab University, Chandigarh, and an MBA in Finance.
+        </p>
+        <p className="text-base leading-8 text-foreground/75">
+        With over 30 years of experience in accounting and 20 years in the outsourcing industry, 
+          Shan has been working with UK accounting firms since 2006. He has extensive expertise in UK accounting and compliance, 
+          including bookkeeping, financial reporting, payroll, VAT/GST, income tax, annual accounts, and year-end compliance.
+        </p>
+        <p className="text-base leading-8 text-foreground/75">
+        Shan possesses a strong understanding of UK accounting practices and regulatory requirements. He plays a key role in building 
+          and maintaining client relationships, ensuring high-quality service delivery, and supporting clients with reliable and efficient accounting solutions. 
+          His practical experience, technical expertise, and client-focused approach have been instrumental in delivering value to businesses across the UK.
         </p>
       </div>
     </motion.div>
@@ -176,18 +198,27 @@ const AboutSection = () => {
         <div className="w-10 h-1 bg-primary rounded-full mb-4" />
 
         <h3 className="text-2xl font-semibold text-foreground">
-          Team Member Name
+          Sandeep Sharma
         </h3>
 
         <p className="text-sm font-medium text-primary mt-1 mb-6">
-          Designation
+          General Manager
         </p>
 
         <p className="text-base leading-8 text-foreground/75">
-          Add the complete biography of the team member here. The card layout
-          gives longer biographies enough room while maintaining a clean,
-          consistent visual structure.
+          Sandeep Sharma is the General Manager at Smartax Accounting Private Limited. 
+          He qualified as a Chartered Accountant (Inter) in 1992 and holds a Bachelor of Commerce degree from Panjab University, Chandigarh.
         </p>
+         <p className="text-base leading-8 text-foreground/75">
+         With over 30 years of experience in accounting, including 6 years of specialised experience in US accounting, 
+           Sandeep has developed strong expertise in US accounting and compliance. 
+           His areas of specialisation include bookkeeping, financial reporting, payroll, sales tax, income tax, annual accounts, and year-end compliance.
+         </p>
+         <p className="text-base leading-8 text-foreground/75">
+         Sandeep is known for his technical knowledge, attention to detail, and commitment to delivering accurate and timely financial solutions. 
+           He plays a key role in ensuring high-quality service delivery and supporting 
+           clients with efficient and compliant accounting and financial reporting services.
+         </p>
       </div>
     </motion.div>
   </div>
