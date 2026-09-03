@@ -55,11 +55,15 @@ const FooterSection = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 opacity-50" />
-                +91 9876 322 311, (360) 215-9248
+                USA - (360) 215-9248
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-3.5 h-3.5 opacity-50" />
+                INDIA - +91 9876 322 311
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 opacity-50 mt-0.5" />
-                India
+                JMD Tower, 1073, Sector 82, JLPL Industrial Area, Mohali, Punjab 160082, India
               </li>
             </ul>
           </div>
